@@ -1,0 +1,49 @@
+---
+title: "R scripting in Power BI"
+author: "Sudarshana A"
+date: "August 11, 2020"
+output:
+  html_document:
+    toc: yes
+    toc_float: yes
+  pdf_document:
+    toc: yes
+---
+
+
+
+
+### Prerequisite
+
+* R must be installed on the same Windows computer as Power BI Desktop
+
+https://www.r-project.org/
+
+
+
+
+Australia - mirrors
+
+|||
+|---|---|
+| https://cran.csiro.au/	| CSIRO |
+| https://mirror.aarnet.edu.au/pub/CRAN/	| AARNET |
+| https://cran.ms.unimelb.edu.au/	| School of Mathematics and Statistics, University of Melbourne |
+| https://cran.curtin.edu.au/	| Curtin University |
+
+
+</br>
+
+* Good to have
+
+IDE to use with R, Notepad++, R Studio, VS etc.
+
+
+### Import Data
+
+### Tranform Data
+
+
+### Visualisations
+
+
