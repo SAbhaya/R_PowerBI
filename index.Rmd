@@ -36,6 +36,14 @@ IDE to use with R, Notepad++, R Studio, VS etc.
 
 
 
+
+### Power BI Options
+
+We can verify correct R installation and detected IDEs by opening *Options* dialog box. Also using this we can provide a specific R installation and R IDE to use with Power BI.
+
+![Power BI Options](optionspbi.png)
+
+
 ## Import Data
 
 To import data you need to create a dataframe. Power BI can access the dataframes and you can select required dataframes to import.
@@ -64,6 +72,11 @@ Lets import this dataset to Power BI by assigning to a dataframe.
 In **Power BI**, click *Get Data -> Other -> R script*
 
 
+![get data](getdatapbi.png)
+
+Click Connect
+
+
 Use the following R script to get the data from *cars* dataset.
 
 ```{r}
@@ -72,7 +85,14 @@ cars_data <- cars
 ```
 
 
+![type R script](getdatacars1.png)
 
+Click OK
+
+We can select required dataframe to Load/Tranform in Power BI
+
+![Load Data](getdatacars2.png)
+![Loaded Data](getdatacars3.png)
 
 
 ## Tranform Data
