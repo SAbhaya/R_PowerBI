@@ -1,5 +1,5 @@
 ---
-title: "R scripting in Power BI"
+title: "Using R in Power BI"
 author: "Sudarshana A"
 date: "August 11, 2020"
 output:
@@ -8,19 +8,15 @@ output:
     toc_float: yes
   pdf_document:
     toc: yes
+    toc_depth: 3
 ---
 
 
-
-
-### Prerequisite
+## Prerequisite
 
 * R must be installed on the same Windows computer as Power BI Desktop
 
 https://www.r-project.org/
-
-
-
 
 Australia - mirrors
 
@@ -39,11 +35,48 @@ Australia - mirrors
 IDE to use with R, Notepad++, R Studio, VS etc.
 
 
-### Import Data
 
-### Tranform Data
+## Import Data
+
+To import data you need to create a dataframe. Power BI can access the dataframes and you can select required dataframes to import.
+
+* Connect to available dataset in R
+* import csv, xlsx, sql etc. data to R then connect
+* import data to R, transform, clean up data and then connect
 
 
-### Visualisations
+### Example 1 - Connect to available dataset in R
+
+We can use available dataset in R and import this to Power BI
+
+`cars` dataset in R consist of breaking distances vs. speed data.
+
+we can preview the data using `head()` function.
+
+
+```{r}
+head(cars)
+
+```
+
+Lets import this dataset to Power BI by assigning to a dataframe.
+
+In **Power BI**, click *Get Data -> Other -> R script*
+
+
+Use the following R script to get the data from *cars* dataset.
+
+```{r}
+cars_data <- cars
+
+```
+
+
+
+
+
+## Tranform Data
+
+## Visualisations
 
 
