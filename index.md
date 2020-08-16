@@ -1,3 +1,15 @@
+-   [Prerequisite](#prerequisite)
+    -   [R Installation](#r-installation)
+    -   [R IDE](#r-ide)
+    -   [Power BI Options](#power-bi-options)
+-   [Import Data](#import-data)
+    -   [Example 1 - Connect to available dataset in
+        R](#example-1---connect-to-available-dataset-in-r)
+    -   [Example 2 - import csv, xlsx, sql etc. to R /
+        transform](#example-2---import-csv-xlsx-sql-etc.-to-r-transform)
+-   [Tranform Data](#tranform-data)
+-   [Visualisations](#visualisations)
+
 Prerequisite
 ------------
 
