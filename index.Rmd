@@ -3,12 +3,14 @@ title: "Using R in Power BI"
 author: "Sudarshana A"
 date: "August 11, 2020"
 output:
-  html_document:
-    toc: yes
-    toc_float: yes
+  md_document:
+    variant: markdown_github
   pdf_document:
     toc: yes
     toc_depth: 3
+  html_document:
+    toc: yes
+    toc_float: yes
 ---
 
 
@@ -152,7 +154,7 @@ We need to select required columns from the Fields pane, or drag columns to Valu
 
 ![](visuals1.png)
 
-Select dist and speed from the cars dataset and use below script to show scatter plot of dist vs speed.
+Select `dist` and `speed` from the cars dataset and use below script to show scatter plot of dist vs speed.
 
 
 ```r
