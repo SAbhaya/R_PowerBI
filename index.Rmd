@@ -1,7 +1,7 @@
 ---
 title: "Using R in Power BI"
 author: "Sudarshana A"
-date: "August 11, 2020"
+date: "August 25, 2020"
 output:
   pdf_document:
     toc: yes
@@ -30,6 +30,15 @@ Australia - mirrors
 | https://mirror.aarnet.edu.au/pub/CRAN/	| AARNET |
 | https://cran.ms.unimelb.edu.au/	| School of Mathematics and Statistics, University of Melbourne |
 | https://cran.curtin.edu.au/	| Curtin University |
+
+
+</br>
+
+Microsoft R Application Network
+
+https://mran.microsoft.com/download
+
+
 
 
 </br>
@@ -169,4 +178,10 @@ plot(dataset$speed, dataset$dist)
 
 ```
 ![](visuals2.png)
+
+## Resources
+
+* https://www.r-bloggers.com/
+* https://bookdown.org/
+* https://shiny.rstudio.com/gallery/
 
